@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Counter App</title>
+  </head>
+  <body>
+	<div id="centeredDiv">
+		<label class="sameLineStyle">Counter: </label>
+		<input class="sameLineStyle" type="text" id="counterValue" disabled value="0"/>
+	</div>
+	<div class="centeredDivButtons">
+		<button class="myButton" id="substractButton">Substract</button>
+		<button class="myButton" id="addButton">Add</button>
+	</div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

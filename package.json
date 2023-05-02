@@ -1,0 +1,11 @@
+{
+  "name": "yarnproj",
+  "packageManager": "yarn@3.5.1",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^24.1.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
